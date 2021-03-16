@@ -8,7 +8,7 @@
 import Foundation
 
 class Car {
-    private let color: Colors
+    private let color: Colors//
     private let transmissions: Transmissions
     private let model: String
     private let mark: String
@@ -49,7 +49,7 @@ class Car {
     }
     
     enum EngineState: String{
-        case switchedOn = "Двигатель запущен"
+        case switchedOn = "Двигатель запущен"//
         case SwitchedOff = "Двигатель выключен"
     }
     
@@ -138,6 +138,8 @@ class Car {
             <#code#>
         }
     }*/
+    
+    // просто изменения так как ничерта не могу понять как работать с эти гит хабом
     
     func getInfoCar() -> String {
         return """
@@ -281,6 +283,8 @@ print(indent)
 ferrary.setKm(121.8)
 
 var kamaz = TrunkCar(color: .black, transmissions: .manual, model: "Kamaz", mark: "ИЖ-12", maxSpeed: 80, doorState: .close, liftingCapacity: 25.5)
+
+// ещё изменния, можно просто выкладывать изменения без вот этого ведения версионирования?!
 
 kamaz.setKm(12.6)
 
